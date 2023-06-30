@@ -25,10 +25,11 @@ Una consecuencia negativa adicional, es la erosión de la confianza entre autori
     - pipenv sync
 
 2. Se descargan desde la página de Datos Abiertos de Incidencia Delictiva las Cifras de Incidencia Delictiva Municipal más nuevas, se guardan en el directorio /data del proyecto, y se escribe el nombre del archivo csv en el archivo **data_extraction** en la línea 22.
+   - https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva
 
-3. Se ejecuta el archivo **data_extraction.py** y se genera el archivo **file_global_vars.txt**
+4. Se ejecuta el archivo **data_extraction.py** y se genera el archivo **file_global_vars.txt**
 
-4. streamlit run gui_app.py
+5. streamlit run gui_app.py
 
 ## Referencia
 - Instituto Nacional de Estadística y Geografía. (n.d.). INEGI. Encuesta Nacional de Victimización de Empresas 2020. Retrieved May 16, 2022, from https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825197889.pdf
