@@ -50,7 +50,7 @@ def tabla_total_trend(municipios, delitos, type_trend):
 #####
 def substract_dates(date, n_months):
     date_format = '%Y-%m-%d'
-    dtObj = datetime.delitos_dfstrptime(date, date_format)
+    dtObj = datetime.strptime(date, date_format)
     past_date = dtObj - relativedelta(months = n_months)
     substacted_date = past_date.strftime(date_format)
     substacted_date = datetime.strptime(substacted_date, date_format)

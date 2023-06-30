@@ -19,7 +19,7 @@ zmg_poblacion_dict = {
 }
 
 def load_delitos_df():
-    delitos_df = pd.read_csv("data/IDM_NM_abr22.csv", encoding='latin-1',thousands=',')
+    delitos_df = pd.read_csv("data/IDM_NM_may23.csv", encoding='latin-1',thousands=',')
     delitos_df = delitos_df[delitos_df['Entidad'] == 'Jalisco']
     return delitos_df
 
