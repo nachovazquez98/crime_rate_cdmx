@@ -16,6 +16,20 @@ Otro problema es la inconsistencia de los registros: no todos los delitos denunc
 
 Una consecuencia negativa adicional, es la erosión de la confianza entre autoridades y ciudadanos. Está  comprobado que los ciudadanos viven constantemente con el temor de ser víctimas de un delito. El miedo al delito, definido como el sentimiento de inseguridad general que tiene la población, es un factor que opera de forma negativa en contra de la información oficial en cuanto a índices delictivos se refiere. La ausencia de denuncias ciudadanas genera lo que se conoce como ‘‘cifra negra’’ u ‘‘oculta’’ de la criminalidad. **Este desconocimiento de la criminalidad real dificulta la planeación de las estrategias para combatir la delincuencia.**
 
+## Funcionamiento
+
+1. Ambientación:
+    - **Referencia**: https://pipenv-fork.readthedocs.io/en/latest/install.html#installing-pipenv
+    - pip install --user pipenv
+    - pipenv shell
+    - pipenv sync
+
+2. Se descargan desde la página de Datos Abiertos de Incidencia Delictiva las Cifras de Incidencia Delictiva Municipal más nuevas, se guardan en el directorio /data del proyecto, y se escribe el nombre del archivo csv en el archivo **data_extraction** en la línea 22.
+
+3. Se ejecuta el archivo **data_extraction.py** y se genera el archivo **file_global_vars.txt**
+
+4. streamlit run gui_app.py
+
 ## Referencia
 - Instituto Nacional de Estadística y Geografía. (n.d.). INEGI. Encuesta Nacional de Victimización de Empresas 2020. Retrieved May 16, 2022, from https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825197889.pdf
 - Alejandro Espinosa, Jonatan Hernández, Rubén Leal, & Gilberto Ramos. (n.d.). Las determinantes del crimen en México. Retrieved May 16, 2022, from http://www.ree.economiatec.com/A1N1/206278.pdf
