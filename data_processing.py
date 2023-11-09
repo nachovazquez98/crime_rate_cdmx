@@ -41,7 +41,7 @@ def tabla_total_trend(municipios, delitos, type_trend):
                 trend = math.inf
 
             df_dsct.loc[(df_dsct['municipio'] == municipio) & (df_dsct['delito'] == delito), ['trend']] = trend
-    df_dsct = df_dsct[~df_dsct.isin([np.nan, np.inf, -np.inf]).any(1)]
+    df_dsct = df_dsct[~df_dsct.isin([np.nan, np.inf, -np.inf]).any(axis=1)]
     df_dsct.drop(df_dsct[df_dsct['trend'] == "inf"].index, inplace = True)
     df_dsct.drop(df_dsct[df_dsct['trend'] == "nan"].index, inplace = True)
     df_dsct['trend'] = df_dsct['trend'].astype(str)

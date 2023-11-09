@@ -19,7 +19,7 @@ zmg_poblacion_dict = {
 }
 
 def load_delitos_df():
-    delitos_df = pd.read_csv("data/IDM_NM_may23.csv", encoding='latin-1',thousands=',')
+    delitos_df = pd.read_csv("data/IDM_NM_sep23.csv", encoding='latin-1',thousands=',')
     delitos_df = delitos_df[delitos_df['Entidad'] == 'Jalisco']
     return delitos_df
 
@@ -38,7 +38,7 @@ def load_zmg_poblacion(zmg_poblacion_dict):
                 ['2020', int(float(data['Series'][0]['OBSERVATIONS'][4]['OBS_VALUE']))],
             ], columns=['year', 'population'])
             pobl_df.index = pobl_df.year
-            pobl_df = pobl_df.drop('year', 1)
+            pobl_df = pobl_df.drop(['year'], axis=1)
             pobl_df.index= pd.to_datetime(pobl_df.index) 
             pobl_df.index = pobl_df.index.year
             #merge datetime nan d list_pobl_zmg.append(pobl_df)f 

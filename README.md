@@ -18,7 +18,8 @@ Una consecuencia negativa adicional, es la erosión de la confianza entre autori
 
 ## Funcionamiento
 
-1. Ambientación:
+1. Ambientación con Python 3.9.7:
+    - Se recomienda crear un ambiente virtual "c:\python39\python.exe -m venv streamlitvenv"
     - **Referencia**: https://pipenv-fork.readthedocs.io/en/latest/install.html#installing-pipenv
     - pip install --user pipenv
     - pipenv shell
