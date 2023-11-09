@@ -35,4 +35,6 @@ Una consecuencia negativa adicional, es la erosión de la confianza entre autori
 - Instituto Nacional de Estadística y Geografía. (n.d.). INEGI. Encuesta Nacional de Victimización de Empresas 2020. Retrieved May 16, 2022, from https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825197889.pdf
 - Alejandro Espinosa, Jonatan Hernández, Rubén Leal, & Gilberto Ramos. (n.d.). Las determinantes del crimen en México. Retrieved May 16, 2022, from http://www.ree.economiatec.com/A1N1/206278.pdf
 - René A. JIMÉNEZ ORNELAS. (n.d.). LA CIFRA NEGRA DE LA DELINCUENCIA EN MÉXICO: SISTEMA DE ENCUESTAS SOBRE VICTIMIZACIÓN. Retrieved May 16, 2022, from https://archivos.juridicas.unam.mx/www/bjv/libros/1/479/17.pdf
+
+
 - 
